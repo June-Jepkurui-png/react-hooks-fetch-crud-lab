@@ -43,7 +43,12 @@ to the question data.
 
 ### POST /questions
 
-When the user clicks the 'New Question' button, a form will be displayed for
+When the user clicks import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./components/App";
+
+ReactDOM.render(<App />, document.getElementById("root"));the 'New Question' button, a form will be displayed for
 creating a new question. This form is already set up as a controlled form, so
 your responsibility will be to send this form data to our API _when the form is
 submitted_.
